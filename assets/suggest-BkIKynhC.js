@@ -1,0 +1,1 @@
+var e=e=>[...e].sort((e,t)=>e.number-t.number);function t(e,t){if(!/^\d{1,9}$/.test(t))return;let n=Number(t),r=0,i=e.length;for(;r<i;){let t=r+i>>1;e[t].number<n?r=t+1:i=t}return r<e.length&&e[r].number===n?e[r]:void 0}export{e as n,t};

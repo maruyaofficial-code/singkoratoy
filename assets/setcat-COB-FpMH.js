@@ -1,0 +1,1 @@
+var e=`6.0 (app preview)`;export{e as t};
